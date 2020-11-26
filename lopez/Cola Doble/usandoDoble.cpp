@@ -95,6 +95,7 @@ int main(){
     nombres.pushFront("Victor");
     nombres.pushFront("Fernando");
     nombres.pushBack("Nicole");
+    nombres.push("Karl", 2);
 
     cout << " \n\n NOMBRES ----------- \n";
     nombres.showAllFromFront();
